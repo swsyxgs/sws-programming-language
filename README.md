@@ -5,7 +5,7 @@ download main.cpp and then build it in c++.If you are using a linux system then 
 ### can i use it in my softwrae?
 If your software is opensource,of couse,you can use it.If no,you can send an e-mail to 3022269126@qq.com to tell us you want to use it in your software than we will see your email and we'll send you back to tell you if you can use it. 
 
-### 中文版
+## 中文版
 sws编程语言是由邵启瑞制作的GNU编程语言，你可以用它制作gui桌面应用程序或跨平台控制台应用程序，它用c ++和.net编写。欢迎使用它。如果你喜欢它，你可以开发它与我们拉动请求。
 ### 如何构建它？
 下载main.cpp然后用g++构建它。如果你使用的是linux系统，那么就需要删除一些不能构建它的库。
