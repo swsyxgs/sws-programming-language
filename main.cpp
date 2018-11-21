@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>
-#include <pthread.h>
+#include <pthread.h> //cannot use in unix systems
 #include <windows.h>
 using namespace std;
 #define max 100
@@ -148,7 +148,7 @@ void sfrs( string tt ) {
 	ifstream	myfile( tt.c_str() );
 	string		temp;
 	if ( !myfile.is_open() ) {
-		cout << "δ�ɹ����ļ�" << endl;
+		cout << "Î´³É¹¦´ò¿ªÎÄ¼þ" << endl;
 		exit( 0 );
 	}
 	while ( getline( myfile, temp ) ) {
